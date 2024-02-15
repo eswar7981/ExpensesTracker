@@ -1,0 +1,18 @@
+.logoutbutton button{
+  
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(98, 98, 226);
+}
+
+.logoutbutton :active{
+    background-color: rgb(61, 61, 223);
+    ;
+}
+
+.logoutbutton {
+    display: flex;
+    margin-top: 20px;
+   justify-content: center;
+
+}

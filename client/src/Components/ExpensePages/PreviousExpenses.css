@@ -1,0 +1,56 @@
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+  }
+
+
+th {
+   
+background-color:rgb(241, 210, 36);
+}
+
+td{
+    color: white;
+    background-color:rgb(180, 118, 238);
+}
+
+.download{
+    display: flex;
+    justify-content:center;
+    margin-top:10px;
+    
+}
+
+.download button{
+    font-size: 16px;
+border:solid;
+border-radius: 5px;
+    background-color:green
+}
+
+.empty{
+    display: flex;
+    justify-content: center;
+}
+
+
+.prevDownload{
+    display: flex;
+    margin-left: 20vw;
+}
+
+.downloadAgain{
+    padding-left: 40vw;
+    margin-top: 10px;
+}
+
+.downloadAgain button{
+    background-color: green;
+    border: solid;
+    padding:1vh 1vw;
+    border-radius: 5px;
+
+}

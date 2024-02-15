@@ -1,0 +1,37 @@
+.logo{
+display: flex;
+justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+
+.word1{
+
+    font-size: 50px;
+    font-family:"Audiowide", sans-serif;
+    font-weight: 600;
+    animation:linearleftToRight 4s infinite;
+}
+
+@keyframes linearleftToRight{
+    0% {transform:translateX(-500px);}
+   
+    50%{transform: translateX((-100px));}
+    100%{transform: translateX((0px));}
+    100% {background-color:orange;border-radius: 10px;padding:0px 5px;}
+}
+
+@keyframes linearrightToLeft{
+    0% {transform:translateX(500px);}
+    50%{transform: translateX((100px));}
+    100%{transform: translateX((0px));}
+    100% {background-color:orange;border-radius: 10px;padding:0px 5px;}
+}
+
+.word2{
+    font-size: 50px;
+    font-family:"Audiowide", sans-serif;
+    font-weight: 600;
+    animation:linearrightToLeft 4s infinite
+}
